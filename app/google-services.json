@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "198235963513",
+    "firebase_url": "https://barliph.firebaseio.com",
+    "project_id": "barliph",
+    "storage_bucket": "barliph.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198235963513:android:e6b4f44617911244",
+        "android_client_info": {
+          "package_name": "com.example.barlinegraph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198235963513-7lda7egg6f2cg8a45cnfab2nikslbpng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barlinegraph",
+            "certificate_hash": "c27c520e97f30575456e9c449bc407455ab5bed0"
+          }
+        },
+        {
+          "client_id": "198235963513-gajihqn81tr8u7ed0kee5aoc8aocvfsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbk8jXo41taUMCUV3BgSTnYgWNR97PDb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198235963513-gajihqn81tr8u7ed0kee5aoc8aocvfsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
