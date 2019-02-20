@@ -1,17 +1,8 @@
 package com.example.barlinegraph;
 
-public class Data {
-    private int peoples;
+import android.arch.lifecycle.ViewModel;
+import android.content.SharedPreferences;
 
-    public int getPeoples() {
-        return peoples;
-    }
-
-    public Data() {
-
-    }
-
-    public void setPeoples(int peoples) {
-        this.peoples = peoples;
-    }
+public class Data extends ViewModel {
+    public int value = 63;
 }

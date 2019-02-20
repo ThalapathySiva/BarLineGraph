@@ -1,5 +1,7 @@
 package com.example.barlinegraph;
 
+import android.arch.lifecycle.ViewModelProvider;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -24,12 +26,16 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private Data user;
     private Long val;
+    SharedPreferences.Editor editor;
     BarChart chart;
+    ViewModelProvider modelProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SharedPreferences pref = getApplicationContext().getSharedPreferences("MyPref", 0); // 0 - for private mode
+        editor = pref.edit();
         user= new Data();
         chart = (BarChart) findViewById(R.id.bar_chart);
         database=FirebaseDatabase.getInstance();
